@@ -1,6 +1,6 @@
-# resume-starter-code
+# username.github.io
 
-A general resume to use as a [GitHub Page](https://pages.github.com).
+Starter HTML resume to use as a [GitHub Page](https://pages.github.com).
 
 ## Origin
 
