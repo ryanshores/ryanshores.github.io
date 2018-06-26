@@ -1,0 +1,91 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #505050;
+	margin: 50px 0;
+}
+
+/*Header*/
+header {
+	margin: 50px auto;
+	border: 5px solid #aaaaaa;
+	text-transform: uppercase;
+	max-width: 600px;
+	width: 50%;
+	min-width: 300px;
+}
+
+header h1 {
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+}
+
+header h2 {
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+	color: #6c6c6c;
+}
+
+/*Main*/
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	margin: 40px 0;
+}
+
+aside, section {
+	padding: 20px 40px;
+}
+
+aside h2, section h2 {
+	border-bottom: 1px solid black;
+}
+
+aside {
+	background: #eeeeee;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+aside li {
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+aside #skills li {
+	font-weight: normal;
+}
+
+aside span {
+	font-weight: normal;
+}
+
+span {
+	float: right;
+}
+
+section h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 780px) {
+	main {
+		flex-direction: row;
+	}
+
+	aside {
+		width: 300px;
+	}
+	aside ul {
+		padding: 0;
+	}
+}
+
