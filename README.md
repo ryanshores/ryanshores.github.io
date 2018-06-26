@@ -20,6 +20,6 @@ If you think of any improvement or find a bug open a new issue and make a fork.
 
 ## Licence
 
-This project uses [The Unlicence](https://choosealicense.com/licenses/unlicense/) - see the [LICENCE.md](LICENCE.md) file for details.
+This project uses [The Unlicence](https://choosealicense.com/licenses/unlicense/) - see the [LICENCE](LICENCE) file for details.
 
 Use it as you wish. 
