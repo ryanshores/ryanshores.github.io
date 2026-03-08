@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Ryan Shores</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -62,19 +62,7 @@
 		</div>
 		<div id="skills">
 			<h2>Skills</h2>
-			<ul id="skill-list">
-<!--				<li>HTML<span>●●●●●</span></li>-->
-<!--				<li>CSS<span>●●●●●</span></li>-->
-<!--				<li>Bootstrap<span>●●●●○</span></li>-->
-<!--				<li>JavaScript<span>●●●●●</span></li>-->
-<!--				<li>ES2016<span>●●●○○</span></li>-->
-<!--				<li>Node.js<span>●●●●○</span></li>-->
-<!--				<li>Express<span>●●●●○</span></li>-->
-<!--				<li>MongoDB<span>●●●●○</span></li>-->
-<!--				<li>ReactJS<span>●●○○○</span></li>-->
-<!--				<li>Google Map JS<span>●●●○○</span></li>-->
-<!--				<li>Wordpress<span>●●●○○</span></li>-->
-			</ul>
+			<ul id="skill-list"></ul>
 		</div>
 	</aside>
 	<section>
@@ -132,39 +120,7 @@
 	</section>
 </main>
 
-<script>
-	const maxLevel = 5;
-	const skills = [
-		{
-			skill: 'Backend & Architecture',
-			level: 5
-		},
-		{
-			skill: 'Frontend',
-			level: 3
-		},
-		{
-			skill: 'Cloud & DevOps',
-			level: 4
-		},
-		{
-			skill: 'Database & Platforms',
-		 	level: 5
-		}
-
-	]
-	console.log(skills);
-
-	const skillsElement = document.getElementById("skill-list");
-	skills.forEach(skill => {
-		const skillItem = document.createElement('li');
-		skillItem.textContent = `${skill.skill} `;
-		const spanItem = document.createElement('span');
-		spanItem.textContent = `${'⏺'.repeat(skill.level)}${'○'.repeat(maxLevel - skill.level)}`;
-		skillItem.appendChild(spanItem);
-		skillsElement.appendChild(skillItem);
-	})
-</script>
+<script src="js/index.js"></script>
 
 <footer></footer>
 </body>
