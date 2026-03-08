@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "skill": "HTML/CSS/JS",
+      "level": 4
+    },
+    {
+      "skill": "Backend & Architecture",
+      "level": 5
+    },
+    {
+      "skill": "Frontend",
+      "level": 3
+    },
+    {
+      "skill": "Cloud & DevOps",
+      "level": 4
+    },
+    {
+      "skill": "Database & Platforms",
+      "level": 5
+    }
+  ]
+}
